@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import classes from "./MealItemForm.module.css";
 
 import Input from "../../UI/Input";
-import userEvent from "@testing-library/user-event";
 
 const MealItemForm = (props) => {
   const [amountIsValid, setAmountIsValid] = useState(true);  
